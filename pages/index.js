@@ -21,7 +21,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>{content[language]}</h1>
+            <h1>{content[language].welcome}</h1>
             <LanguageSwitcher />
         </div>
     );
